@@ -1,0 +1,165 @@
+-------------------- TEST: v3/v3-3/V3-3-1 --------------------
+Burn time: 5.00 [s]
+
+Thrust
+F_avg: 21.80 [N] / 2.22 [kg]
+F_max: 39.75 [N] / 4.05 [kg]
+
+Pressure
+P_avg: 7.62 [bar] / 762462.96 [Pa]
+P_max: 8.60 [bar] / 860000.00 [Pa]
+
+Temps
+Temp1_max: 114.86 [degC] - (Moteur-arriere)
+Temp2_max: 133.59 [degC] - (Moteur-avant)
+
+Impulse
+I_total: 108.99 [Ns]
+I_specifc: 32.91 [s]
+Motor class: G
+
+Grain
+Grain design: stars-12
+Grain material: ASAB
+Grain initial mass: 39.00 [g] / 0.0390 [kg]
+Grain final mass: 8.00 [g] / 0.0080 [kg]
+Grain consumed: 31.00 [g] / 0.0310 [kg]
+Grain consumed % : 79.49 [%]
+Grain flow: 6.20 [g/s] / 0.0062 [kg/s]
+
+Oxydizer
+Oxygen pressure: 15.00 [bar] / 1500000.00 [Pa]
+Oxygen diameter: 3.50 [mm] / 0.0035 [m]
+Oxygen area: 9.62 [mm^2] / 0.00000962 [m^2]
+Oxygen temperature: 20.00 [degC] / 293.15 [K]
+Oxygen gamma: 1.40 [ratio]
+Oxygen molar mass: 32.00 [g/mol] / 0.0320 [kg/mol]
+Oxygen sound speed: 326.56 [m/s]
+Oxygen flow: 61.31 [g/s] / 0.0613 [kg/s]
+
+Flow: 67.51 [g/s] / 0.0675 [kg/s]
+
+O/F ratio: 9.89
+
+Nozzle
+Nozzle enter diameter: 24.00 [mm] / 0.0240 [m]
+Nozzle throat diameter: 5.00 [mm] / 0.0050 [m]
+Nozzle exit diameter: 24.00 [mm] / 0.0240 [m]
+Nozzle enter area: 452.39 [mm^2] / 0.00045239 [m^2]
+Nozzle throat area: 19.63 [mm^2] / 0.00001963 [m^2]
+Nozzle exit area: 452.39 [mm^2] / 0.00045239 [m^2]
+
+-------------------- END TEST: v3/v3-3/V3-3-1 --------------------
+
+-------------------- ROCKETCEA: v3/v3-3/V3-3-1 --------------------
+RocketCEA output:
+
+ *******************************************************************************
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA, OCTOBER 18, 2002
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ reac
+  fuel C18H23NO2(S)  C 18.0   H 23.0   N 1.0   O 2.0    wt%=100.00
+  h,cal= 1200.0 t(k)=298.15 rho=0.9220
+  oxid O2(G)  O 2
+  h,cal=0.      t(k)=298.15       wt%=100.
+  
+ prob case=RocketCEA,
+  rocket equilibrium   p,bar=7.62463,  subar=23.04,  pi/p=7.54914,  supar=23.04,
+  o/f=9.88914,
+  
+  
+ output siunits  short  transport
+ end
+
+
+
+
+
+
+              THEORETICAL ROCKET PERFORMANCE ASSUMING EQUILIBRIUM
+
+           COMPOSITION DURING EXPANSION FROM INFINITE AREA COMBUSTOR
+
+ Pinj =   110.6 PSIA
+ CASE = RocketCEA,     
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)     KJ/KG-MOL      K  
+ FUEL        C18H23NO2(S)                 1.0000000      5020.800    298.150
+ OXIDANT     O2(G)                        1.0000000         0.000    298.150
+
+ O/F=    9.88914  %FUEL=  9.183462  R,EQ.RATIO= 0.266267  PHI,EQ.RATIO= 0.257948
+
+                 CHAMBER   THROAT     EXIT     EXIT     EXIT
+ Pinf/P            1.0000   1.7589   7.5491   1.0004   271.88
+ P, BAR            7.6246   4.3350   1.0100   7.6217  0.02804
+ T, K             2643.79  2448.31  1934.57  2643.65   948.08
+ RHO, KG/CU M    1.1148 0 6.8827-1 2.0426-1 1.1145 0 1.1583-2
+ H, KJ/KG          1.6157  -369.26 -1187.23   1.3493 -2465.27
+ U, KJ/KG         -682.30  -999.09 -1681.70  -682.53 -2707.38
+ G, KJ/KG        -22880.6 -21559.7 -17931.1 -22879.7 -10671.0
+ S, KJ/(KG)(K)     8.6551   8.6551   8.6551   8.6551   8.6551
+
+ M, (1/n)          32.141   32.321   32.530   32.141   32.558
+ (dLV/dLP)t      -1.00513 -1.00282 -1.00029 -1.00513 -1.00000
+ (dLV/dLT)p        1.1283   1.0771   1.0104   1.1283   1.0000
+ Cp, KJ/(KG)(K)    2.2474   1.9418   1.4416   2.2472   1.1955
+ GAMMAs            1.1647   1.1777   1.2206   1.1647   1.2716
+ SON VEL,M/SEC      892.5    861.2    776.9    892.5    554.9
+ MACH NUMBER        0.000    1.000    1.985    0.026    4.003
+
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLIWATTS/(CM)(K)
+
+ VISC,MILLIPOISE  0.92519  0.87786  0.74910  0.92515  0.46241
+
+  WITH EQUILIBRIUM REACTIONS
+
+ Cp, KJ/(KG)(K)    2.2474   1.9418   1.4416   2.2472   1.1955
+ CONDUCTIVITY      3.3542   2.6298   1.4879   3.3536   0.7169
+ PRANDTL NUMBER    0.6199   0.6482   0.7258   0.6199   0.7712
+
+  WITH FROZEN REACTIONS
+
+ Cp, KJ/(KG)(K)    1.3935   1.3798   1.3362   1.3935   1.1954
+ CONDUCTIVITY      1.7467   1.6355   1.3362   1.7467   0.7168
+ PRANDTL NUMBER    0.7381   0.7406   0.7491   0.7381   0.7712
+
+ PERFORMANCE PARAMETERS
+
+ Ae/At                      1.0000   1.8820   23.040   23.040
+ CSTAR, M/SEC               1286.3   1286.3   1286.3   1286.3
+ CF                         0.6696   1.1988   0.0179   1.7269
+ Ivac, M/SEC                1592.6   1862.7  29649.3   2330.2
+ Isp, M/SEC                  861.2   1542.0     23.1   2221.2
+
+
+ MOLE FRACTIONS
+
+ *CO              0.00602  0.00299  0.00017  0.00602  0.00000
+ *CO2             0.18015  0.18422  0.18825  0.18015  0.18859
+ *H               0.00039  0.00017  0.00001  0.00039  0.00000
+ HO2              0.00009  0.00005  0.00001  0.00009  0.00000
+ *H2              0.00055  0.00030  0.00002  0.00055  0.00000
+ H2O              0.10801  0.11252  0.11913  0.10801  0.12049
+ *NO              0.00344  0.00264  0.00089  0.00344  0.00000
+ NO2              0.00001  0.00001  0.00000  0.00001  0.00000
+ *N2              0.00344  0.00388  0.00479  0.00344  0.00524
+ *O               0.00839  0.00441  0.00033  0.00838  0.00000
+ *OH              0.02029  0.01336  0.00244  0.02028  0.00000
+ *O2              0.66922  0.67546  0.68396  0.66922  0.68569
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+ NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+
+
+
+
