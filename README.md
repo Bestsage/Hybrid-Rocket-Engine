@@ -1,6 +1,6 @@
 # Hybrid Rocket Engine Demonstrator
 
-![Test firing with shock diamonds](docs/shock_diamonds.png)
+![Test firing with shock diamonds](docs/shock_diamond.png)
 
 ## Overview
 This repository documents the **design, construction, and testing** of a **hybrid rocket engine demonstrator**, developed as part of our *Travail de maturité* and presented at the **Swiss National Contest**.  
