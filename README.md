@@ -65,9 +65,10 @@ Example: `V3-1-2` → Engine Version 3, first minor variant, second test.
 - **Samuel Gebhard**  
 
 With the support of:  
-- *Gymnase de Morges*  
-- **EPFL Rocket Team** (advice & mentoring)  
-
+- *Gymnase de Morges*
+- dr. Ricardo Perez 
+- prof. Gabriel Paciotti
+- Daniel Gebhard
 ---
 
 ## License
