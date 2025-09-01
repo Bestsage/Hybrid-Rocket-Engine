@@ -40,7 +40,7 @@ Over 9 months, we applied an **iterative engineering process**:
 - **Testing**: 18 static firings, continuously improving injector design, nozzle geometry, and fuel formulation.  
 
 **Results**:  
-- Stable thrust plateau of **40 N** (peak **43 N**) during 5-second burns  
+- Stable thrust plateau of **26 N** (peak **40.4 N**) during 5-second burns  
 - Combustion chamber pressure remained constant  
 - Temperature < **150 °C** (no thermal risk observed)  
 - **16 out of 18 successful tests** → high system reliability  
@@ -52,15 +52,15 @@ These results confirm that **hybrid propulsion is a viable option for model rock
 
 ## Technical Specifications
 
-### Engine Performance (Latest Configuration: V3-1-1)
+### Engine Performance (Latest Configuration: V3-3-1)
 | Parameter | Value | Unit |
 |-----------|-------|------|
-| **Maximum Thrust** | 10.65 | N |
-| **Average Thrust** | 9.22 | N |
+| **Maximum Thrust** | 40.42 | N |
+| **Average Thrust** | 26.02 | N |
 | **Burn Time** | 5.0 | seconds |
-| **Total Impulse** | 46.09 | N⋅s |
-| **Specific Impulse** | 22.27 | seconds |
-| **Chamber Pressure** | 5.84 (avg), 6.76 (max) | bar |
+| **Total Impulse** | 130.09 | N⋅s |
+| **Specific Impulse** | 38.94 | seconds |
+| **Chamber Pressure** | 5.31 (avg), 8.35 (max) | bar |
 
 ### Physical Specifications
 | Component | Specification |
@@ -72,8 +72,8 @@ These results confirm that **hybrid propulsion is a viable option for model rock
 | **Injector** | Custom 3.5mm diameter orifice |
 
 ### Test Configuration
-- **Fuel Mass**: 44g initial, 27g consumed (61% burn efficiency)
-- **O/F Ratio**: 6.8:1 (oxygen to fuel)
+- **Fuel Mass**: 46g initial, 34g consumed (73.9% burn efficiency)
+- **O/F Ratio**: 9.0:1 (oxygen to fuel)
 - **Operating Temperature**: <150°C (safe thermal limits)
 - **Success Rate**: 89% (16/18 successful tests)
 
@@ -91,7 +91,8 @@ These results confirm that **hybrid propulsion is a viable option for model rock
 |---------|------------|---------------|------------------------|---------|
 | V3-1-1 | 10.65 peak | 5.0 | 6.76 max | ✅ Success |
 | V3-1-2 | TBD | TBD | TBD | ✅ Success |
-| V3-2-1 | TBD | TBD | TBD | ✅ Success |
+| V3-2-1 | 39.75 peak | 5.0 | 8.60 max | ✅ Success |
+| V3-3-1 | 40.42 peak | 5.0 | 8.35 max | ✅ Success |
 
 *Note: Each test folder contains detailed telemetry data (.TXT), analysis spreadsheets (.xlsx), temperature plots (.png), and test videos (.MOV)*
 
