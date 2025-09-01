@@ -55,12 +55,12 @@ These results confirm that **hybrid propulsion is a viable option for model rock
 ### Engine Performance (Latest Configuration: V3-1-1)
 | Parameter | Value | Unit |
 |-----------|-------|------|
-| **Maximum Thrust** | 43 N | N |
-| **Average Thrust** | 40 N | N |
+| **Maximum Thrust** | 10.65 | N |
+| **Average Thrust** | 9.22 | N |
 | **Burn Time** | 5.0 | seconds |
-| **Total Impulse** | 200 | N⋅s |
-| **Specific Impulse** | ~220 | seconds |
-| **Chamber Pressure** | 5.8 (avg), 6.8 (max) | bar |
+| **Total Impulse** | 46.09 | N⋅s |
+| **Specific Impulse** | 22.27 | seconds |
+| **Chamber Pressure** | 5.84 (avg), 6.76 (max) | bar |
 
 ### Physical Specifications
 | Component | Specification |
@@ -90,8 +90,8 @@ These results confirm that **hybrid propulsion is a viable option for model rock
 | Test ID | Thrust (N) | Burn Time (s) | Chamber Pressure (bar) | Status |
 |---------|------------|---------------|------------------------|---------|
 | V3-1-1 | 10.65 peak | 5.0 | 6.76 max | ✅ Success |
-| V3-1-2 | 42 peak | 5.2 | 6.5 max | ✅ Success |
-| V3-2-1 | 38 peak | 4.8 | 6.2 max | ✅ Success |
+| V3-1-2 | TBD | TBD | TBD | ✅ Success |
+| V3-2-1 | TBD | TBD | TBD | ✅ Success |
 
 *Note: Each test folder contains detailed telemetry data (.TXT), analysis spreadsheets (.xlsx), temperature plots (.png), and test videos (.MOV)*
 
